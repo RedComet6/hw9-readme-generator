@@ -75,6 +75,10 @@ inquirer.prompt([
         name: "contactGitHub",
         type: "input",
         message: "what is the contact individual's GitHub profile URL?",
+        validate: function (input) {
+            const valid = input.startsWith("https://www.");
+            return valid || "Please enter a valid website";
+        },
     },
 ]);
 
