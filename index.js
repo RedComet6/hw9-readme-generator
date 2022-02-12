@@ -3,9 +3,9 @@ const fs = require("fs");
 
 inquirer.prompt([
     {
-        name: "readmeName",
+        name: "readmeTitle",
         type: "input",
-        message: "Enter a name for your ReadMe file:",
+        message: "Enter a title to header your ReadMe file:",
     },
     {
         name: "description",
@@ -39,9 +39,29 @@ inquirer.prompt([
 
 // # READMENAME
 
+// ## Table of Contents
+
+// * [Description](./README.md#description)
+// * [Installation]()
+// * [Usage]()
+// * [License]()
+// * [Contributing]()
+// * [Tests]()
+// * [Screenshot]()
+// * [Links to Application]()
+// * [Questions]()
+
 // ## Description
 
-// DESCRIPTION
+// ## Installation
+
+// ## Usage
+
+// ## License
+
+// ## Contributing
+
+// ## Tests
 
 // ## Screenshot
 
@@ -51,3 +71,5 @@ inquirer.prompt([
 
 // -   Here is the repo: [RedComet6/READMENAME](REPOLOC)
 // -   Here is the pages: [RedComet6 READMENAME Pages](PAGESLOC)
+
+// ## Questions
