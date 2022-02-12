@@ -55,7 +55,7 @@ ${data.tests}
 If you have any questions, you may contact:
 
 #### ${data.contactName}
-Email: ${data.contactEmail}
+Email: ${data.contactEmail}  
 Github Profile: [https://www.github.com/${data.contactGitHub}](https://www.github.com/${data.contactGitHub})`;
 }
 
