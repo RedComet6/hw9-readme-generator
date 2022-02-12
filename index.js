@@ -1,7 +1,9 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
+const generateMarkdown = require("./generateMarkdown");
 
-inquirer.prompt([
+// TODO: Create an array of questions for user input
+const questions = [
     {
         name: "readmeTitle",
         type: "input",
@@ -12,75 +14,25 @@ inquirer.prompt([
         type: "input",
         message: "Enter a description of the content your ReadMe is associated with:",
     },
-    {
-        name: "installation",
-        type: "input",
-        message: "Enter the installation information needed for your content:",
-    },
-    {
-        name: "usage",
-        type: "input",
-        message: "Describe how to operate the content associated with your ReadMe:",
-    },
-    {
-        name: "license",
-        type: "list",
-        message: "What license does your content fall under?",
-        choices: ["A", "B", "C", "D"],
-    },
-    {
-        name: "contributing",
-        type: "input",
-        message: "Who has contributed to your content?",
-    },
-    {
-        name: "tests",
-        type: "input",
-        message: "Explain some tests cases for your content:",
-    },
-    {
-        name: "screenshotLoc",
-        type: "input",
-        message: "Enter the file location of a screenshot of your ReadMe's associated content:",
-    },
-    {
-        name: "repoLoc",
-        type: "input",
-        message: "Enter the URL of the GitHub Repository for your content:",
-        validate: function (input) {
-            const valid = input.startsWith("https://www.");
-            return valid || "Please enter a valid website";
-        },
-    },
-    {
-        name: "pagesLoc",
-        type: "input",
-        message: "Enter the URL of the GitHub Pages for your content:",
-        validate: function (input) {
-            const valid = input.startsWith("https://www.");
-            return valid || "Please enter a valid website";
-        },
-    },
-    {
-        name: "contactName",
-        type: "input",
-        message: "Who can a user with questions contact?",
-    },
-    {
-        name: "contactEmail",
-        type: "input",
-        message: "What is the contact individual's email address?",
-    },
-    {
-        name: "contactGitHub",
-        type: "input",
-        message: "what is the contact individual's GitHub profile URL?",
-        validate: function (input) {
-            const valid = input.startsWith("https://www.");
-            return valid || "Please enter a valid website";
-        },
-    },
-]);
+];
+
+inquirer.prompt(questions).then((answers) => {
+    console.log(answers);
+    writeToFile("README_NEW.md", generateMarkdown(answers));
+});
+
+// TODO: Include packages needed for this application
+
+// TODO: Create a function to write README file
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => (err ? console.error(err) : console.log("Success!")));
+}
+
+// // TODO: Create a function to initialize app
+// function init() {}
+
+// // Function call to initialize app
+// init();
 
 // # READMENAME
 
