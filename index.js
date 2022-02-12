@@ -24,6 +24,16 @@ const questions = [
         type: "input",
         message: "Enter instructions for using your content:",
     },
+    {
+        name: "contributing",
+        type: "input",
+        message: "Enter instructions for how someone can contribute to your content:",
+    },
+    {
+        name: "tests",
+        type: "input",
+        message: "Enter instructions for testing your content:",
+    },
 ];
 
 inquirer.prompt(questions).then((answers) => {

@@ -37,17 +37,19 @@ ${data.usage}
 ## License
     
 ## Contributing
-    
+${data.contributing}
+
 ## Tests
-    
+${data.tests}
+
 ## Screenshot
     
-![A screenshot of the website](SCREENSHOTLOC)
+![A screenshot of the content](SCREENSHOTLOC)
     
 ## Links to Application
     
--   Here is the repo: [RedComet6/READMENAME](REPOLOC)
--   Here is the pages: [RedComet6 READMENAME Pages](PAGESLOC)
+-   Here is the repo: [RedComet6/${data.title}](REPOLOC)
+-   Here is the pages: [RedComet6 ${data.title} Pages](PAGESLOC)
     
 ## Questions
 If you have any questions, you may contact:`;
