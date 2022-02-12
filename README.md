@@ -1,4 +1,4 @@
-# check screenshot
+# check2 screenshot
 
 ## Table of Contents:
 * [Description](./README.md#description)
@@ -18,28 +18,28 @@ check desc
 check install
 
 ## Usage
-check inst
+check use
 
 ## License
     
 ## Contributing
-check const
+check cont
 
 ## Tests
 check test
 
 ## Screenshot
     
-![A screenshot of the content](./test_img/portfolio-aidan-chamberlain-screenshot.png)
+![A screenshot of the content]()
     
 ## Links to Application
     
--   Here is the repo: [RedComet6/check screenshot](https://www.)
--   Here is the pages: [RedComet6 check screenshot Pages](https://www.)
+-   Here is the repo: [RedComet6/check2 screenshot](https://www.)
+-   Here is the pages: [RedComet6 check2 screenshot Pages](https://www.)
     
 ## Questions
 If you have any questions, you may contact:
 
-#### Aidan Chamberlain
-Email: asunshine99@gmail.com  
+#### Aidan Chanveralin
+Email: asunshine88gmail.com  
 Github Profile: [https://www.github.com/RedComet6](https://www.github.com/RedComet6)

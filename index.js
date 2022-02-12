@@ -38,6 +38,7 @@ const questions = [
         name: "screenshotLoc",
         type: "input",
         message: "Enter the file location of a screenshot (location relative to current folder):",
+        default: "",
     },
     {
         name: "contactName",
