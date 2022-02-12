@@ -56,8 +56,7 @@ If you have any questions, you may contact:
 
 #### ${data.contactName}
 Email: ${data.contactEmail}
-
-Github Profile:`;
+Github Profile: [https://www.github.com/${data.contactGitHub}](https://www.github.com/${data.contactGitHub})`;
 }
 
 module.exports = generateMarkdown;

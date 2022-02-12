@@ -1,4 +1,4 @@
-# third try
+# fourth try
 
 ## Table of Contents:
 * [Description](./README.md#description)
@@ -12,21 +12,21 @@
 * [Questions](./README.md#questions)
     
 ## Description
-third desc
+fourth desc
 
 ## Installation
-third install
+fourth install
 
 ## Usage
-third inst
+fourth inst
 
 ## License
     
 ## Contributing
-third cont
+fourth const
 
 ## Tests
-third test
+fourth test
 
 ## Screenshot
     
@@ -34,13 +34,12 @@ third test
     
 ## Links to Application
     
--   Here is the repo: [RedComet6/third try](https://www.)
--   Here is the pages: [RedComet6 third try Pages](https://www.)
+-   Here is the repo: [RedComet6/fourth try](https://www.)
+-   Here is the pages: [RedComet6 fourth try Pages](https://www.)
     
 ## Questions
 If you have any questions, you may contact:
 
 #### Aidan Chamberlain
 Email: asunshine99@gmail.com
-
-Github Profile:
+Github Profile: [https://www.github.com/RedComet6](https://www.github.com/RedComet6)

@@ -44,6 +44,11 @@ const questions = [
         type: "input",
         message: "Enter the contact's email address:",
     },
+    {
+        name: "contactGitHub",
+        type: "input",
+        message: "Enter the contact's GitHub Username",
+    },
 ];
 
 inquirer.prompt(questions).then((answers) => {
