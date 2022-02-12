@@ -35,6 +35,11 @@ const questions = [
         message: "Enter instructions for testing your content:",
     },
     {
+        name: "screenshotLoc",
+        type: "input",
+        message: "Enter the file location of a screenshot (location relative to current folder):",
+    },
+    {
         name: "contactName",
         type: "input",
         message: "Enter the name of who can be contacted with questions:",
@@ -56,15 +61,7 @@ inquirer.prompt(questions).then((answers) => {
     writeToFile("README.md", generateMarkdown(answers));
 });
 
-// TODO: Include packages needed for this application
-
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => (err ? console.error(err) : console.log("Success!")));
 }
-
-// // TODO: Create a function to initialize app
-// function init() {}
-
-// // Function call to initialize app
-// init();

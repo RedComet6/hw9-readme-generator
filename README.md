@@ -1,4 +1,4 @@
-# fifth try
+# check screenshot
 
 ## Table of Contents:
 * [Description](./README.md#description)
@@ -12,30 +12,30 @@
 * [Questions](./README.md#questions)
     
 ## Description
-fifth desc
+check desc
 
 ## Installation
-fifth install
+check install
 
 ## Usage
-fifth use
+check inst
 
 ## License
     
 ## Contributing
-fifth cont
+check const
 
 ## Tests
-fifth test
+check test
 
 ## Screenshot
     
-![A screenshot of the content](SCREENSHOTLOC)
+![A screenshot of the content](./test_img/portfolio-aidan-chamberlain-screenshot.png)
     
 ## Links to Application
     
--   Here is the repo: [RedComet6/fifth try](https://www.)
--   Here is the pages: [RedComet6 fifth try Pages](https://www.)
+-   Here is the repo: [RedComet6/check screenshot](https://www.)
+-   Here is the pages: [RedComet6 check screenshot Pages](https://www.)
     
 ## Questions
 If you have any questions, you may contact:

@@ -44,7 +44,7 @@ ${data.tests}
 
 ## Screenshot
     
-![A screenshot of the content](SCREENSHOTLOC)
+![A screenshot of the content](${data.screenshotLoc})
     
 ## Links to Application
     
