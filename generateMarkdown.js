@@ -54,8 +54,9 @@ ${data.tests}
 ## Questions
 If you have any questions, you may contact:
 
-### ${data.contactName}
+#### ${data.contactName}
 Email: ${data.contactEmail}
+
 Github Profile:`;
 }
 
