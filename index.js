@@ -39,6 +39,11 @@ const questions = [
         type: "input",
         message: "Enter the name of who can be contacted with questions:",
     },
+    {
+        name: "contactEmail",
+        type: "input",
+        message: "Enter the contact's email address:",
+    },
 ];
 
 inquirer.prompt(questions).then((answers) => {

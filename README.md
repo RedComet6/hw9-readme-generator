@@ -12,21 +12,21 @@
 * [Questions](./README.md#questions)
     
 ## Description
-first desc
+second desc
 
 ## Installation
-first
+second install
 
 ## Usage
-first inst
+second inst
 
 ## License
     
 ## Contributing
-first cont
+second cont
 
 ## Tests
-first tests
+second tests
 
 ## Screenshot
     
@@ -41,3 +41,5 @@ first tests
 If you have any questions, you may contact:
 
 ### Aidan Chamberlain
+Email: asunshine99@gmail.com
+Github Profile:
