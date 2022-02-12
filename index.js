@@ -13,6 +13,32 @@ inquirer.prompt([
         message: "Enter a description of the content your ReadMe is associated with:",
     },
     {
+        name: "installation",
+        type: "input",
+        message: "Enter the installation information needed for your content:",
+    },
+    {
+        name: "usage",
+        type: "input",
+        message: "Describe how to operate the content associated with your ReadMe:",
+    },
+    {
+        name: "license",
+        type: "list",
+        message: "What license does your content fall under?",
+        choices: ["A", "B", "C", "D"],
+    },
+    {
+        name: "contributing",
+        type: "input",
+        message: "Who has contributed to your content?",
+    },
+    {
+        name: "tests",
+        type: "input",
+        message: "Explain some tests cases for your content:",
+    },
+    {
         name: "screenshotLoc",
         type: "input",
         message: "Enter the file location of a screenshot of your ReadMe's associated content:",
@@ -35,6 +61,21 @@ inquirer.prompt([
             return valid || "Please enter a valid website";
         },
     },
+    {
+        name: "contactName",
+        type: "input",
+        message: "Who can a user with questions contact?",
+    },
+    {
+        name: "contactEmail",
+        type: "input",
+        message: "What is the contact individual's email address?",
+    },
+    {
+        name: "contactGitHub",
+        type: "input",
+        message: "what is the contact individual's GitHub profile URL?",
+    },
 ]);
 
 // # READMENAME
@@ -42,14 +83,14 @@ inquirer.prompt([
 // ## Table of Contents
 
 // * [Description](./README.md#description)
-// * [Installation]()
-// * [Usage]()
-// * [License]()
-// * [Contributing]()
-// * [Tests]()
-// * [Screenshot]()
-// * [Links to Application]()
-// * [Questions]()
+// * [Installation](./README.md#installation)
+// * [Usage](./README.md#usage)
+// * [License](./README.md#license)
+// * [Contributing](./README.md#contributing)
+// * [Tests](./README.md#tests)
+// * [Screenshot](./README.md#screenshot)
+// * [Links to Application](./README.md#links-to-application)
+// * [Questions](./README.md#questions)
 
 // ## Description
 
@@ -73,3 +114,4 @@ inquirer.prompt([
 // -   Here is the pages: [RedComet6 READMENAME Pages](PAGESLOC)
 
 // ## Questions
+// If you have any questions, you may contact:
