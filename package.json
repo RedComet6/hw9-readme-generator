@@ -1,0 +1,22 @@
+{
+  "name": "hw9-readme-generator",
+  "version": "1.0.0",
+  "description": "Takes user input and generates a readme file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedComet6/hw9-readme-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RedComet6/hw9-readme-generator/issues"
+  },
+  "homepage": "https://github.com/RedComet6/hw9-readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
