@@ -14,6 +14,16 @@ const questions = [
         type: "input",
         message: "Enter a description of your content:",
     },
+    {
+        name: "installation",
+        type: "input",
+        message: "Enter instructions for installing your content:",
+    },
+    {
+        name: "usage",
+        type: "input",
+        message: "Enter instructions for using your content:",
+    },
 ];
 
 inquirer.prompt(questions).then((answers) => {
