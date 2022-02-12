@@ -48,11 +48,13 @@ ${data.tests}
     
 ## Links to Application
     
--   Here is the repo: [RedComet6/${data.title}](REPOLOC)
--   Here is the pages: [RedComet6 ${data.title} Pages](PAGESLOC)
+-   Here is the repo: [RedComet6/${data.title}](https://www.)
+-   Here is the pages: [RedComet6 ${data.title} Pages](https://www.)
     
 ## Questions
-If you have any questions, you may contact:`;
+If you have any questions, you may contact:
+
+### ${data.contactName}`;
 }
 
 module.exports = generateMarkdown;

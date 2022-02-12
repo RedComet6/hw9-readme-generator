@@ -1,4 +1,4 @@
-# Ninth Try
+# hw9-readme-generator
 
 ## Table of Contents:
 * [Description](./README.md#description)
@@ -12,21 +12,21 @@
 * [Questions](./README.md#questions)
     
 ## Description
-ninth desc
+first desc
 
 ## Installation
-ninth install
+first
 
 ## Usage
-ninth inst
+first inst
 
 ## License
     
 ## Contributing
-ninth cont
+first cont
 
 ## Tests
-ninth testing
+first tests
 
 ## Screenshot
     
@@ -34,8 +34,10 @@ ninth testing
     
 ## Links to Application
     
--   Here is the repo: [RedComet6/Ninth Try](REPOLOC)
--   Here is the pages: [RedComet6 Ninth Try Pages](PAGESLOC)
+-   Here is the repo: [RedComet6/hw9-readme-generator](https://www.)
+-   Here is the pages: [RedComet6 hw9-readme-generator Pages](https://www.)
     
 ## Questions
 If you have any questions, you may contact:
+
+### Aidan Chamberlain

@@ -34,6 +34,11 @@ const questions = [
         type: "input",
         message: "Enter instructions for testing your content:",
     },
+    {
+        name: "contactName",
+        type: "input",
+        message: "Enter the name of who can be contacted with questions:",
+    },
 ];
 
 inquirer.prompt(questions).then((answers) => {
