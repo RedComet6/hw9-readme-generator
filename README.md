@@ -1,4 +1,4 @@
-# checking repoLoc
+# checking pagesLoc
 
 ## Table of Contents:
 * [Description](./README.md#description)
@@ -35,7 +35,7 @@ test
 ## Links to Application
     
 -   Here is the repo: [https://github.com/RedComet6/hw9-readme-generator](https://github.com/RedComet6/hw9-readme-generator)
--   Here is the pages: [RedComet6 checking repoLoc Pages](https://www.)
+-   Here is the pages: [https://redcomet6.github.io/hw9-readme-generator/](https://redcomet6.github.io/hw9-readme-generator/)
     
 ## Questions
 If you have any questions, you may contact:

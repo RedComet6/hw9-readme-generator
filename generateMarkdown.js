@@ -49,7 +49,7 @@ ${data.tests}
 ## Links to Application
     
 -   Here is the repo: [${data.repoLoc}](${data.repoLoc})
--   Here is the pages: [RedComet6 ${data.title} Pages](https://www.)
+-   Here is the pages: [${data.pagesLoc}](${data.pagesLoc})
     
 ## Questions
 If you have any questions, you may contact:
