@@ -13,26 +13,31 @@ const questions = [
         name: "description",
         type: "input",
         message: "Enter a description of your content:",
+        default: "",
     },
     {
         name: "installation",
         type: "input",
         message: "Enter instructions for installing your content:",
+        default: "",
     },
     {
         name: "usage",
         type: "input",
         message: "Enter instructions for using your content:",
+        default: "",
     },
     {
         name: "contributing",
         type: "input",
         message: "Enter instructions for how someone can contribute to your content:",
+        default: "",
     },
     {
         name: "tests",
         type: "input",
         message: "Enter instructions for testing your content:",
+        default: "",
     },
     {
         name: "screenshotLoc",
@@ -43,7 +48,8 @@ const questions = [
     {
         name: "repoLoc",
         type: "input",
-        message: "Enter the URL of the GitHub Repository:",
+        message: "Enter the URL of the GitHub Repository (include https://):",
+        default: "https://www.github.com",
         validate: function (input) {
             const valid = input.startsWith("https://");
             return valid || "Please enter a valid website";
@@ -52,7 +58,8 @@ const questions = [
     {
         name: "pagesLoc",
         type: "input",
-        message: "Enter the URL of the GitHub Pages:",
+        message: "Enter the URL of the GitHub Pages (include https://):",
+        default: "https://www.github.com",
         validate: function (input) {
             const valid = input.startsWith("https://");
             return valid || "Please enter a valid website";
@@ -62,16 +69,19 @@ const questions = [
         name: "contactName",
         type: "input",
         message: "Enter the name of who can be contacted with questions:",
+        default: "",
     },
     {
         name: "contactEmail",
         type: "input",
         message: "Enter the contact's email address:",
+        default: "",
     },
     {
         name: "contactGitHub",
         type: "input",
         message: "Enter the contact's GitHub Username",
+        default: "",
     },
 ];
 
