@@ -1,4 +1,4 @@
-# check empty
+# checking repoLoc
 
 ## Table of Contents:
 * [Description](./README.md#description)
@@ -12,34 +12,34 @@
 * [Questions](./README.md#questions)
     
 ## Description
-check desc
+desc
 
 ## Installation
-check install
+install
 
 ## Usage
-check use
+use
 
 ## License
     
 ## Contributing
-check cont
+cont
 
 ## Tests
-check test
+test
 
 ## Screenshot
     
-![](./test_img/portfolio-aidan-chamberlain-screenshot.png)
+![]()
     
 ## Links to Application
     
--   Here is the repo: [RedComet6/check empty](https://www.)
--   Here is the pages: [RedComet6 check empty Pages](https://www.)
+-   Here is the repo: [https://github.com/RedComet6/hw9-readme-generator](https://github.com/RedComet6/hw9-readme-generator)
+-   Here is the pages: [RedComet6 checking repoLoc Pages](https://www.)
     
 ## Questions
 If you have any questions, you may contact:
 
-#### Aidan 
+#### Aidan
 Email: asun@gmail.com  
-Github Profile: [https://www.github.com/RedComt6](https://www.github.com/RedComt6)
+Github Profile: [https://www.github.com/RedComet6](https://www.github.com/RedComet6)

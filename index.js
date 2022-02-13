@@ -41,6 +41,15 @@ const questions = [
         default: "",
     },
     {
+        name: "repoLoc",
+        type: "input",
+        message: "Enter the URL of the GitHub Repository:",
+        validate: function (input) {
+            const valid = input.startsWith("https://");
+            return valid || "Please enter a valid website";
+        },
+    },
+    {
         name: "contactName",
         type: "input",
         message: "Enter the name of who can be contacted with questions:",

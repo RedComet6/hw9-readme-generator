@@ -48,7 +48,7 @@ ${data.tests}
     
 ## Links to Application
     
--   Here is the repo: [RedComet6/${data.title}](https://www.)
+-   Here is the repo: [${data.repoLoc}](${data.repoLoc})
 -   Here is the pages: [RedComet6 ${data.title} Pages](https://www.)
     
 ## Questions
