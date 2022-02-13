@@ -28,6 +28,12 @@ const questions = [
         default: "",
     },
     {
+        name: "license",
+        type: "list",
+        message: "Choose which license applies:",
+        choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
+    },
+    {
         name: "contributing",
         type: "input",
         message: "Enter instructions for how someone can contribute to your content:",
