@@ -20,12 +20,24 @@ function renderLicenseLink(license) {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+    if (license === "MIT") {
+        return `This software licensed to MIT, `;
+    } else if (license === "APACHE 2.0") {
+        return `This software licensed to APACHE 2.0, `;
+    } else if (license === "GPL 3.0") {
+        return `This software licensed to GPL 3.0, `;
+    } else if (license === "BSD 3") {
+        return `This software licensed to BSD 3, `;
+    } else if (license === "None") {
+        return "";
+    }
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
     const badge = renderLicenseBadge(data.license);
-    // const licenseSection = renderLicenseSection(data.license);
+    const licenseSection = renderLicenseSection(data.license);
     return `# ${data.title} ${badge}
 
 ## Table of Contents:
@@ -49,6 +61,7 @@ ${data.installation}
 ${data.usage}
 
 ## License
+${licenseSection}
     
 ## Contributing
 ${data.contributing}
