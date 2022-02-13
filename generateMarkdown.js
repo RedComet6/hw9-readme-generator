@@ -9,7 +9,7 @@ function renderLicenseBadge(license) {
         return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
     } else if (license === "BSD 3") {
         return "[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
-    } else {
+    } else if (license === "None") {
         return "";
     }
 }
