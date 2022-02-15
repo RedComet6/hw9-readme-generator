@@ -31,19 +31,19 @@ function renderLicenseSection(license) {
     if (license === "MIT") {
         return `## License
 This software licensed to MIT, for more information you may visit this link:
-[MIT License Wikipedia}](https://en.wikipedia.org/wiki/MIT_License)
+[MIT License Wikipedia](https://en.wikipedia.org/wiki/MIT_License)
 `;
     } else if (license === "APACHE 2.0") {
         return `This software licensed to APACHE 2.0, for more information you may visit this link:
-[APACHE License Wikipedia}](https://en.wikipedia.org/wiki/Apache_License)
+[APACHE License Wikipedia](https://en.wikipedia.org/wiki/Apache_License)
 `;
     } else if (license === "GPL 3.0") {
         return `This software licensed to GPL 3.0, for more information you may visit this link:
-[GNU General Public License Wikipedia}](https://en.wikipedia.org/wiki/GNU_General_Public_License#Version_3)
+[GNU General Public License Wikipedia](https://en.wikipedia.org/wiki/GNU_General_Public_License#Version_3)
 `;
     } else if (license === "BSD 3") {
         return `This software licensed to BSD 3, for more information you may visit this link:
-[BSD License Wikipedia}](https://en.wikipedia.org/wiki/BSD_licenses#3-clause)
+[BSD License Wikipedia](https://en.wikipedia.org/wiki/BSD_licenses#3-clause)
 `;
     } else if (license === "None") {
         return "";
