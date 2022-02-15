@@ -1,6 +1,6 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// function that returns a license badge based on which license is chosen, if no license, return an empty string
 function renderLicenseBadge(license) {
+    // conditional statement to determine which badge to add
     if (license === "MIT") {
         return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
     } else if (license === "APACHE 2.0") {
@@ -14,9 +14,9 @@ function renderLicenseBadge(license) {
     }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// unction that returns the license link in the table of contents, if no license, return an empty string
 function renderLicenseLink(license) {
+    // conditional statement to determine if link is needed or not
     if (license === "None") {
         return "";
     } else {
@@ -25,9 +25,9 @@ function renderLicenseLink(license) {
     }
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// function that returns the license section of README, if no license, return an empty string
 function renderLicenseSection(license) {
+    // conditional statement to determine which license information needs to be displayed
     if (license === "MIT") {
         return `## License
 This software licensed to MIT, for more information you may visit this link:
@@ -50,11 +50,13 @@ This software licensed to MIT, for more information you may visit this link:
     }
 }
 
-// TODO: Create a function to generate markdown for README
+// function to generate markdown for README
 function generateMarkdown(data) {
+    // variables for license information, if needed
     const badge = renderLicenseBadge(data.license);
     const licenseLink = renderLicenseLink(data.license);
     const licenseSection = renderLicenseSection(data.license);
+
     return `# ${data.title} ${badge}
 
 ## Table of Contents:
@@ -99,4 +101,5 @@ Email: ${data.contactEmail}
 Github Profile: [https://www.github.com/${data.contactGitHub}](https://www.github.com/${data.contactGitHub})`;
 }
 
+// export so can be required in index.js
 module.exports = generateMarkdown;
