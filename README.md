@@ -1,4 +1,4 @@
-# checking lic sec none 
+#  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents:
 * [Description](./README.md#description)
@@ -19,10 +19,10 @@
 
 ## Usage
 
-
 ## License
+This software licensed to MIT, for more information you may visit this link:
+[MIT License Wikipedia}](https://en.wikipedia.org/wiki/MIT_License)
 
-    
 ## Contributing
 
 
